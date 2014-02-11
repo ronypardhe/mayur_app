@@ -1,0 +1,53 @@
+<html>
+
+
+
+<body style="background-color:#800080;">
+	<header> Quiz </header>
+<img src="doggy.jpg" width=500 height = 250>
+
+	
+	<form name = "quizQ1">
+
+<b>Question 3: According to the study conducted by
+ University of Minnesota in the first week of March 2013,
+ which species of Africa would decline to almost extinction
+ over the period of coming 20-40 years if conservation measures
+ were not undertaken??</b><br> <br>
+
+<input type = "radio" name = "rad3" onclick = "getAnswer('a')"> Wild Cat<br>
+<input type = "radio" name = "rad3" onclick = "getAnswer('b')">  Elephants <br>
+<input type = "radio" name = "rad3" onclick = "getAnswer('c')"> Wild Lion <br>
+<input type = "radio" name = "rad3" onclick = "getAnswer('d')">Wild Lizard<br><br><br>
+
+<b>Question 4: Which country ranked first on list of countries which distribute spam all over the world, according to new report of SophosLabs??</b><br> <br>
+
+<input type = "radio" name = "rad2" onclick = "getAnswer(' China')">  China <br>
+<input type = "radio" name = "rad2" onclick = "getAnswer('India')"> India<br>
+<input type = "radio" name = "rad2" onclick = "getAnswer('US')"> US <br>
+<input type = "radio" name = "rad2" onclick = "getAnswer('Spain')"> Spain <br><br><br>
+</form>
+
+<script type = "text/javascript">
+
+function getAnswer(input) {
+if (input == "c") {alert ("Well done! Wild Lion is the correct answer")}
+else  if (input == "US") {alert ("Well done! US is the correct answer.")}
+else {alert ("No that's incorrect, please try again...")}
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+  
+	
+</body>
+
+</html>
